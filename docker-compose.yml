@@ -1,0 +1,5 @@
+services:
+
+  postgres-db:
+    image: nlumineau/isitr-bd
+    container_name: postgres-db
