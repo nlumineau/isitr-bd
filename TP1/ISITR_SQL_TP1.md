@@ -109,7 +109,7 @@ Les données sur les artistes et les films sont complétées par des information
 
 ### Manipulation des données : Requêtes SQL
 
-Il est fortement conseillé ce créer un fichier texte (*via* Notepad++, SublimeText, VSCode ...) en local sur votre machine pour y écrire les requêtes demandées ci-dessous. Pour tester une requête, il vous faudra alors la copier-coller dans le terminal une fois connecté en tant qu'etum2.
+Il est fortement conseillé ce créer un fichier texte (*via* Notepad++, SublimeText, VSCode ...) en local sur votre machine pour y écrire les requêtes demandées ci-dessous. Pour tester une requête, il vous faudra alors la copier-coller dans le terminal une fois connecté en tant qu'utilsateur 'etudiant'.
 
 A noter que la documentation sur PostgreSQL est disponible ici :
 [http://postgresql.org/docs/current/index.html](http://postgresql.org/docs/current/index.html)
