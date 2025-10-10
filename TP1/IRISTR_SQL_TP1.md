@@ -49,6 +49,7 @@ Vous diposez du projet `isitr-bd`  sur gitHub : [https://github.com/nlumineau/is
 
 - Lister les tables
 ```
+  SET search_path TO cinema;	
   \dt
   SELECT * FROM  artiste LIMIT 10;
 ```
@@ -71,7 +72,7 @@ des artistes et des films. Vous trouverez le **modèle conceptuel** de cette bas
 <td>
 <center>
 
-![Figure 1: Schéma EA](img/mcd_tp2.png)
+![Figure 1: Schéma EA](img/mcd_tp1.png)
 Figure 1 : Schéma E/A
 
 </center> 
