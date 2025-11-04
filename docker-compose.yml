@@ -3,3 +3,6 @@ services:
   postgres-db:
     image: nlumineau/isitr-bd
     container_name: postgres-db
+    ports:
+     - "5432:5432"
+   restart: unless-stopped
