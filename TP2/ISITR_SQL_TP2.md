@@ -1,5 +1,5 @@
-# IRISTR : Bases de Données 
-## TP 1 :  Premières requêtes SQL
+# IRISTR BD
+## TP 2 :  SQL : sous-requêtes et combinaison de requêtes
 
 ---
 
@@ -10,20 +10,7 @@
 
 ### Environnement de travail
 
-Ce TP se déroule dans le même environnement que le TP précédent.
-
-### À propos des données
-
-Pour rappel, on considère le modèle relationnel suivant :
-
-- artiste(<u>ida</u>, nom, prenom, annee_nais)<br>
-- film(<u>idf</u>, titre, annee, \#id_realisateur)<br>
-- joue(<u>\#ida,\#idf</u>, nom_role)<br>
-- cinema(<u>idc</u>, nom, adresse, ville)<br>
-- salle(<u>\#idc, num_salle</u>, est_climatise, capacite)<br>
-- seance(<u>\#idf, \#(idc, num_salle), annee, semaine)</u><br>	
-
-Le jeu de données du premier TP qui comprenait les artistes et les films, est complété par des informations portant sur les rôles joués par les acteurs/actrices dans les films. Ainsi la relation *joue* permet de mettre en lien un identifiant d'artiste *ida* avec un identifiant de film *idf* et on dispose du nom du rôle de l'artiste dans le film. De plus, on dispose d'informations sur les cinémas de différentes villes dans la relation *cinema*. Les cinémas ont une adresse et se trouvent dans une ville. Le cinéma est compsé de salles ayant un numéro (relatif à chaque cinéma). Pour chaque salle, on sait si elle est climatisée et on connaît sa capacité en nombre de sièges. Pour finir, on stocke les informations sur les projections dans la table *seance*, permettant de savoir quel film d'identifiant *idf* est projeté dans quelle salle *(idc, num_salle)* pendant quelle année et quelle semaine (les semaines sont numéroté de 1 à 52 ou 53 selon l'année).  
+C'est le même que le TP 1.
 
 ### Exercice 1 : requêtes SQL
 
@@ -158,3 +145,17 @@ Le jeu de données du premier TP qui comprenait les artistes et les films, est c
 <a name="Q14"></a>
 
  #### 4.Supprimer l’artiste d'identifiant 40.
+ 
+ 
+
+
+
+ 
+### Correction expliquée du TP
+
+Comme rappelé lors du premier cours, le véritable objectif du TP n'est pas de retrouver les résultats attendus  du TP, mais  de vous amener à acquérir la capacité à définir une requête SQL pertinente pour un besoin spécifié.
+Pour vous aider dans votre apprentissage, vous disposez [ici](./corrections/Support_TP2.md) des rappels et des explications nécessaires pour construire vos requêtes.
+Il est **TRÈS IMPORTANT** de n'utiliser ce support que si vous êtes bloqué pour répondre à la question.
+Si vous vous contentez de lire la correction, dans le meilleur des cas vous vous direz que c'est simple. Et en fait non, le jour où vous devrez écrire d'autres requêtes, vous n'y arriverez pas.
+Il est **TRÈS IMPORTANT**   de faire  l'effort de chercher *par vous-même*.
+
