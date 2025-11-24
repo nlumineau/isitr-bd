@@ -1,5 +1,5 @@
-# IRISTR : Bases de Données 
-## TP 3 :  Sous-requêtes SQL et combinaison de requêtes
+# IRISTR : BD
+## TP 3 :  Regroupement et fonctions d'agrégation
 
 ---
 
@@ -9,12 +9,15 @@
  - maîtriser la rédaction de requêtes impliquant une division algébrique.
 ---
 
-### À propos des données
+### Environnement de travail
+
+C'est _toujours_ le même que le TP 1.
 
 
-Le jeu de données pour ce TP est le même que les TP précédents sur la thématique du cinéma.
 
-### Les requêtes
+### Exercice : Encore des requêtes SQL
+
+Le jeu de données pour ce TP est le même que le précédent TP sur la thématique du cinéma.
 
 Écrire les requêtes SQL suivantes:
 
